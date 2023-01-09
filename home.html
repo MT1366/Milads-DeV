@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./home-style.css" />
+    <script
+      src="https://kit.fontawesome.com/159eee2cad.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <style>
+    @font-face {
+      font-family: poppins-bold;
+      src: url(./font/poppins/poppins-bold.otf);
+    }
+
+    @font-face {
+      font-family: poppins-extra-bold;
+      src: url(./font/poppins/poppins-extra-bold.otf);
+    }
+
+    @font-face {
+      font-family: poppins-light;
+      src: url(./font/poppins/poppins-light.otf);
+    }
+
+    @font-face {
+      font-family: poppins-medium;
+      src: url(./font/poppins/poppins-medium.otf);
+    }
+
+    @font-face {
+      font-family: poppins-regular;
+      src: url(./font/poppins/poppins-regular.otf);
+    }
+
+    @font-face {
+      font-family: poppins-semi-bold;
+      src: url(./font/poppins/poppins-semi-bold.otf);
+    }
+
+    @font-face {
+      font-family: poppins-thin;
+      src: url(./font/poppins/poppins-thin.otf);
+    }
+  </style>
+  <body>
+    <header class="home-page-header">
+      <h2>Hey Tamara</h2>
+      <p>Today you have 12 tasks</p>
+      <a href="./add-task.html" id="header-image"></a>
+    </header>
+
+    <main class="tamara-grid-section">
+      <dialog id="schedule">
+        <!-- <div class="tamara-task-table"> -->
+        <p id="nums">
+          16
+          <span id="tasks">tasks created</span>
+        </p>
+        <p id="nums">
+          12
+          <span id="tasks">tasks left</span>
+        </p>
+        <!-- </div> -->
+        <!-- <table class="tamara-task-table">
+          <tr>
+            <th>16</th>
+            <th>12</th>
+          </tr>
+          <tr>
+            <td>tasks created</td>
+            <td>tasks left</td>
+          </tr>
+        </table> -->
+        <div class="tamara-grid">
+          <span id="work">Work</span>
+          <span id="tamara-tasks">7 tasks</span>
+        </div>
+        <div class="tamara-grid">
+          <span id="personal">Personal</span>
+          <span id="tamara-tasks">1 tasks</span>
+        </div>
+        <div class="tamara-grid">
+          <span id="shopping">Shopping</span>
+          <span id="tamara-tasks">2 tasks</span>
+        </div>
+        <div class="tamara-grid">
+          <span id="health">Health</span>
+          <span id="tamara-tasks">2 tasks</span>
+        </div>
+      </dialog>
+
+      <section class="tamara-todo-list">
+        <time class="todo-list-grid">08:00</time>
+        <time class="todo-list-grid">
+          <span>08:30</span>
+          <p class="ui-challenge">
+            Daily UI Challenge
+            <span class="ui-subtitle"> Create To-Do List</span>
+          </p>
+        </time>
+        <time class="todo-list-grid">
+          <span>09:00</span>
+          <p class="do-yoga">
+            Do yoga <span class="yoga-subtitle">15 Minuets</span>
+          </p>
+        </time>
+        <time class="todo-list-grid">09:30</time>
+        <time class="todo-list-grid">10:00</time>
+        <time class="todo-list-grid">10:30</time>
+        <time class="todo-list-grid">
+          <span>11:00</span>
+          <p class="eat-lunch">
+            Lunch <span class="lunch-subtitle">Buy salad</span>
+          </p>
+        </time>
+        <time class="todo-list-grid">
+          <span>11:30</span>
+          <p class="make-lunch">
+            Lunch <span class="make-lunch-subtitle">Make salad</span>
+          </p>
+        </time>
+        <time class="todo-list-grid">12:00</time>
+      </section>
+    </main>
+  </body>
+</html>
